@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Score Keep App</h1>
+    <div class="container">
+        <div class="Man-City">
+            <img src="./image/M-City.jpg" alt=""><br>
+            <span class="counter">0</span><br>
+            <button id="goal" onclick="changeCounter(goal)">Goal</button><br>
+            <span class="counter1">0</span><br>
+            <button id="foul" onclick="changeCounter(foul)">Foul</button>
+        </div>
+        
+<!-- vertical line codes -->
+        <div class="v-line">
+
+        </div>
+<!-- Liverpool codes -->
+<div class="L-pool">
+    <img src="./image/Liverpool-logo.png" alt=""><br>
+    <span class="counter2">0</span><br>
+    <button id="goal1" onclick="changeCounter(goal1)">Goal</button><br>
+    <span class="counter3">0</span><br>
+    <button id="foul1" onclick="changeCounter(foul1)">Foul</button>
+</div>
+
+    </div><br>
+
+    <button id="reset" onclick="changeCounter(reset)" >Reset</button>
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
